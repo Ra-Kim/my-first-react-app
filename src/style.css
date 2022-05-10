@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background: #23252C;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 22.5%;
+    margin: auto;
+    /* border-radius: 5%; */
+    background: #1A1B21;
+}
+
+footer{
+    height: 64px;
+    background: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 0;
+    border-radius: 3%;
+}
+
+footer a{
+    padding: 0 12px;
+}
+
+header {
+    height: 344px;
+    width: 100%;
+    text-align: center;
+}
+
+.header-pic {
+    width:100%;
+    height: 217px;
+    border: 0.5px aliceblue;
+}
+
+button {
+    /* position: absolute; */
+    width: 115px;
+    height: 34px;
+    flex-direction: row;
+    padding: 9px 13px 9px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    }
+
+.link-button{
+    background: #5093E2;
+    color: #FFF;
+    border: none;
+}
+
+.button-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 3%;
+}
+
+h2{
+    margin: 2% auto;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+p{
+    margin: 0 auto;
+    padding-bottom: 2%;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+}
+
+.header-title{
+    color: #F3BF99;
+}
+
+span{
+    margin-left: 3%;
+}
+
+.header-site{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.main-header{
+    margin: 2% 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3%;
+}
